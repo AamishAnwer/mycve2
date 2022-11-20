@@ -1,0 +1,153 @@
+/* body {
+     background-color: #256D85; 
+}
+*/
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    background-color: #54BAB9;
+}
+h1 {
+    font-size: 3.5rem;
+    margin-top: 0;
+    width: 400px;
+    margin: 0 auto 0 auto; 
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+
+    ;
+
+     /* yaha pe margin wala use hua bcz body pe
+     jo center use kiye the uskke bad width diye 
+     so width ke wajah se center hat gaya
+     then auto wala use kiye */
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #003082;
+    font-weight: normal;
+    line-height: 2;
+
+    ;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+.top-container {
+    
+    background-color: #256D85;
+  /*  padding-left: 30%; 
+    border-style: solid;
+    border-width: 50px 40px 30px 10px; */
+    position: relative;
+    padding-top: 100px;
+}
+
+
+.deve {
+    text-decoration: underline;
+}
+
+
+.top-cloud {
+    position: absolute;
+    right: 28%;
+    top: 5%;
+
+
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 28%;
+    bottom: 62%;
+    top: 38%;
+}
+
+.imgsize {
+    height: 200px;
+    width: 200px;
+    padding-top: 15px;
+}
+.skillimg {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 30px;
+}
+.hobimg {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    float: right;
+    margin-left: 30px;
+}
+a {
+    color: #11999E;
+}
+
+.skill-row {
+    width: 50%;
+    /* margin-left: 25%;   this line and bottom line has the same work  */
+    /* margin: 0 0 0 25%; */
+    margin: 100px auto 100px auto ;
+    text-align: left;
+    line-height: 2;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+hr {
+    border-style: dotted none none none;
+    width: 5%;
+    border-width: 10px;
+}
+.bottom-container {
+font-family: 'Merriweather', serif;    
+background-color: silver;
+height: 120px;
+padding-top: 50px;
+}
+.footer-link {
+    padding: 50px;
+    text-decoration: none;
+}
+.footer-link:hover {
+    color: #003082;
+}
+p {
+    line-height: 2;
+}
+.contact-me {
+    padding: 20px 30px;
+}
